@@ -1,0 +1,48 @@
+---
+title: "Data Science Explained"
+format: html
+editor: visual
+---
+
+## Questions & Answers
+
+### Q1: What do you think being a data scientist is about?
+
+Being a data scientist is about using scientific, statistical methods or algorithms to extract meaningful insights from unstructured data.
+
+### Q2: What differences/similarities do you see between data scientists and statisticians?
+
+Data scientists and statisticians have many similarities including the use of scientific methods, statistical concepts and programming languages to draw conclusions. Unlike pure statisticians, data scientists are skilled in computer science and machine learning as well. This includes the following:
+
+-   Pre-processing data
+-   Optimizing model performance
+-   Deploying models via API for external use.
+
+### Q3: How do you view yourself in relation to these two areas?
+
+My background pushes me closer to a data scientist than it does a statistician. My current role as a data analyst forces me to think through how to process data, optimize performance and deploy solutions to cloud platforms. It is my hope that with the Masters of Statistics degree I can evolve into a full data scientist.
+
+## Density Graph - Petal Width
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+## Class, Type, Structure
+
+The below code blow will show give some details about the variable "y" such as: 1. Class = "density" 2. Type - "list" 3. Structure - List of 7 with other details
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+## Plot of Y
+
+The below code chunk will plot Y but since we have the echo set to false, you will not see the code itself, so you are only seeing the graph. How cool!
+
+```{r}
+#| echo: false
+plot(y)
+```
