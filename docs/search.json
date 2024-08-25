@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "data_science_explained.html",
+    "href": "data_science_explained.html",
+    "title": "Data Science Explained",
+    "section": "",
+    "text": "Being a data scientist is about using scientific, statistical methods or algorithms to extract meaningful insights from unstructured data.\n\n\n\nData scientists and statisticians have many similarities including the use of scientific methods, statistical concepts and programming languages to draw conclusions. Unlike pure statisticians, data scientists are skilled in computer science and machine learning as well. This includes the following:\n\nPre-processing data\nOptimizing model performance\nDeploying models via API for external use.\n\n\n\n\nMy background pushes me closer to a data scientist than it does a statistician. My current role as a data analyst forces me to think through how to process data, optimize performance and deploy solutions to cloud platforms. It is my hope that with the Masters of Statistics degree I can evolve into a full data scientist."
+  },
+  {
+    "objectID": "data_science_explained.html#questions-answers",
+    "href": "data_science_explained.html#questions-answers",
+    "title": "Data Science Explained",
+    "section": "",
+    "text": "Being a data scientist is about using scientific, statistical methods or algorithms to extract meaningful insights from unstructured data.\n\n\n\nData scientists and statisticians have many similarities including the use of scientific methods, statistical concepts and programming languages to draw conclusions. Unlike pure statisticians, data scientists are skilled in computer science and machine learning as well. This includes the following:\n\nPre-processing data\nOptimizing model performance\nDeploying models via API for external use.\n\n\n\n\nMy background pushes me closer to a data scientist than it does a statistician. My current role as a data analyst forces me to think through how to process data, optimize performance and deploy solutions to cloud platforms. It is my hope that with the Masters of Statistics degree I can evolve into a full data scientist."
+  },
+  {
+    "objectID": "data_science_explained.html#density-graph---petal-width",
+    "href": "data_science_explained.html#density-graph---petal-width",
+    "title": "Data Science Explained",
+    "section": "Density Graph - Petal Width",
+    "text": "Density Graph - Petal Width\n\ny &lt;- density(iris$Petal.Width)"
+  },
+  {
+    "objectID": "data_science_explained.html#class-type-structure",
+    "href": "data_science_explained.html#class-type-structure",
+    "title": "Data Science Explained",
+    "section": "Class, Type, Structure",
+    "text": "Class, Type, Structure\nThe below code blow will show give some details about the variable “y” such as: 1. Class = “density” 2. Type - “list” 3. Structure - List of 7 with other details\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\""
+  },
+  {
+    "objectID": "data_science_explained.html#plot-of-y",
+    "href": "data_science_explained.html#plot-of-y",
+    "title": "Data Science Explained",
+    "section": "Plot of Y",
+    "text": "Plot of Y\nThe below code chunk will plot Y but since we have the echo set to false, you will not see the code itself, so you are only seeing the graph. How cool!"
+  }
+]
